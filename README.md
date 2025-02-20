@@ -63,6 +63,8 @@ Before setting up Android App Links, ensure you have:
 3. Under **Your apps**, add your SHA256 fingerprint if not already added.
 4. Navigate to **Authentication** > **Settings** > **Authorized domains**.
 5. Add your domain if it's not listed.
+![Screenshot 2025-02-20 at 16 53 31](https://github.com/user-attachments/assets/d42e2422-d038-444e-b4d2-603ad34e158b)
+
 6. If not using Play App Signing, create a file named firebase-config.js in your project’s root directory with the following content:
    ```javascript
    const firebaseConfig = {
